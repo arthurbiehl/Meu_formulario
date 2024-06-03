@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 0px 1px rgb(70, 70, 70);
+}
+
+a{
+    text-decoration: none;
+}
+
+.linha {
+    width: 1000px;
+    height: 1px;
+    background-color: rgb(161, 161, 161);
+}
+
+.tags a {
+    padding: 10px;
+    line-height: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+}
+
+.principal {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal h1 {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoMinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.eu {
+    width: 170px;
+    height: 170px;
+    border-radius: 360px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding: 20px;
+}
+
+.info p {
+    text-align: center;
+    padding: 4px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.projetos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.conteiner_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/git.jpg");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/html.png");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/css.jpg");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/javaS.png");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/vue.jpg");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/react.jpg");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+
+}
+
+.box7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url("fotos/java.jpg");
+    background-position: center;
+    box-shadow: 0px 0px 3px black;
+
+}
