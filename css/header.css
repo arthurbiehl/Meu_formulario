@@ -24,7 +24,7 @@ a{
 
 .tags {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -34,10 +34,6 @@ a{
     font-size: 13px;
     text-decoration: none;
     color: rgb(92, 92, 92);
-}
-
-.tags img {
-    width: 40px;
 }
 
 .tags a:hover{
@@ -54,4 +50,12 @@ a{
     padding: 5px;
     transition: 0.4s;
 
+}
+
+.tags_img {
+    display: flex;
+}
+
+.tags_img img {
+    width: 40px;
 }
