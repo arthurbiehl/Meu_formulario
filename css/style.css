@@ -5,63 +5,20 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); /*nova*/
 
-header {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    box-shadow: 0px 0px 1px rgb(70, 70, 70);
-    transition: 1s;
-
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a{
-    text-decoration: none;
-}
-
-.linha {
-    width: 1000px;
-    height: 1px;
-    background-color: rgb(161, 161, 161);
-}
-
-.tags {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tags a {
-    padding: 10px;
-    line-height: 10px;
-    font-size: 15px;
-    text-decoration: none;
-    color: rgb(92, 92, 92);
-}
-
-.tags img {
-    width: 40px;
-}
-
-.tags a:hover{
-    padding: 20px;
-    transition: 0.4s;
-    background-color: rgba(207, 207, 207, 0.164);
-    color: black;
-    border-radius: 10px;
-
-}
-
-.tags img:hover {
-    width: 44px;
-    padding: 5px;
-    transition: 0.4s;
-
-}
 
 .principal {
-
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +29,7 @@ a{
 }
 
 .container {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +91,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
+    flex-wrap: wrap;
+    max-width: 900px;
     transition: 0.4s;
     
 }
@@ -152,7 +111,7 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/git.jpg");
+    background-image: url("../fotos/git.jpg");
     background-position: center;
     background-size: cover;
     box-shadow: 0px 0px 3px black;
@@ -166,7 +125,7 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/html.png");
+    background-image: url("../fotos/html.png");
     background-position: center;
     background-size: cover;
     box-shadow: 0px 0px 3px black;
@@ -181,7 +140,7 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/css.jpg");
+    background-image: url("../fotos/css.jpg");
     background-position: center;
     box-shadow: 0px 0px 3px black;
     background-size: cover;
@@ -197,7 +156,7 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/javaS.png");
+    background-image: url("../fotos/javaS.png");
     background-position: center;
     box-shadow: 0px 0px 3px black;
     background-size: cover;
@@ -212,7 +171,7 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/vue.jpg");
+    background-image: url("../fotos/vue.jpg");
     background-position: center;
     box-shadow: 0px 0px 3px black;
     background-size: cover;
@@ -227,7 +186,7 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/react.jpg");
+    background-image: url("../fotos/react.jpg");
     background-position: center;
     box-shadow: 0px 0px 3px black;
     background-size: cover;
@@ -242,18 +201,60 @@ a{
     height: 160px;
     border-radius: 5px;
     margin: 10px;
-    background-image: url("fotos/java.jpg");
+    background-image: url("../fotos/java.jpg");
     background-position: center;
     box-shadow: 0px 0px 3px black;
     background-size: cover;
 
 }
 
+.tabelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 footer{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
     color: white;
     height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteiner_box{
+        flex-direction: column;
+    }
+
+    .info {
+        width: 600px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .conteiner_box{
+        flex-direction: column;
+    }
+
+    .info {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .conteiner_box{
+        flex-direction: column;
+    }
+
+    .info {
+        width: auto;
+    }
 }
