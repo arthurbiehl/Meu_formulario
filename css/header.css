@@ -37,21 +37,6 @@ a{
     color: rgb(253, 253, 253);
 }
 
-.tags img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-}
-
-.tags .instagram{
-    width: 50px;
-}
-
-.tags .facebook:hover {
-    width: 35px;
-}
-
 .tags a:hover{
     padding: 10px;
     transition: 0.4s;
@@ -61,25 +46,14 @@ a{
 
 }
 
-.tags img:hover {
-    width: 44px;
-    padding: 5px;
-    transition: 0.4s;
-
-}
-
-.tags_img {
-    display: flex;
-}
-
-.tags_img img {
-    width: 40px;
-}
-
 .links {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.links img {
+    width: 30px;
 }
 
 @media screen and (max-width: 600px) {
