@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Tiny', sans-serif;
 }
 
 
@@ -146,6 +147,57 @@ main {
     font-weight: 700;
     margin: 3px;
     color: white;
+}
+
+.contato {
+    width: 1000px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contato h2 {
+    color: rgba(0, 0, 0, 0.795);
+}
+
+.container_contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px
+}
+
+.contatar {
+    width: 800px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-color: rgb(55, 97, 136);
+}
+
+.contatar p {
+    font-weight: 500;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.contatar h3 {
+    margin: 10px;
+    color: white;
+}
+
+iframe {
+    width: 500px;
+    height: 200px;
 }
 
 footer {
