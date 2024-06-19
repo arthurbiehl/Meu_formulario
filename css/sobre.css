@@ -1,9 +1,8 @@
-
-body{
+body {
     width: 100%;
 }
 
-.sobre_mim{
+.sobre_mim {
     width: 500px;
     height: 500px;
     margin: 60px;
@@ -59,13 +58,13 @@ body{
 }
 
 
-.escrita h2 {   
+.escrita h2 {
     color: rgba(0, 0, 0, 0.795);
     text-align: left;
     margin: 10px;
 }
 
-.imagem_sobre{
+.imagem_sobre {
     width: 300px;
     height: 400px;
     margin: 20px;
@@ -84,7 +83,7 @@ body{
     flex-direction: column;
 }
 
-.container_box{
+.container_box {
     width: 100%;
     height: auto;
     margin: 20px;
@@ -113,10 +112,22 @@ body{
     height: 100%;
 }
 
-.box1:hover{
+.box1:hover {
     width: 360px;
     height: 180px;
 }
 
+@media screen and (max-width: 900px) {
+    .sobre_mim {
+        height: 600px;
+    }
 
+    .container_sobre {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .box {
+        height: 1500px;
+    }
+}

@@ -223,6 +223,16 @@ iframe {
         width: 400px;
     }
 
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_contato {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -238,5 +248,15 @@ iframe {
     .eu {
         width: 150px;
         height: 150px;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_contato {
+        display: flex;
+        flex-direction: column;
     }
 }
